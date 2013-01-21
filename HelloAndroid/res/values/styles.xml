@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="styleName" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:ems">10</item>
+    </style>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">ElectionKhabar</string>
+    <string name="filter1_prompt">Choose something</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_news">News</string>
+
+    <string-array name="filter1">
+        <item>Parties</item>
+        <item>Politicians</item>
+    </string-array>
+    <string-array name="Parties">
+        <item>Congress</item>
+        <item>BJP</item>
+        <item >SamajWadi Party</item>
+        <item >CPI(Marxist)</item>
+        <item >DMK</item>
+        <item >Trinamool Congress</item>
+    </string-array>
+    <string-array name="Politicians">
+        <item>Sonia</item>
+        <item>Modi</item>
+        <item >Manmohan</item>
+        <item >Rahul</item>
+        <item >Mayawati</item>
+    </string-array>
+        <string name="subscription_to_delete">Subscription to delete</string>
+    
+
+</resources>

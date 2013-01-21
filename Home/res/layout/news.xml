@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newsbb"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="208dp"
+    android:orientation="vertical"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="207dp"
+    android:orientation="vertical"
+    android:background="@drawable/black"
+
+    
+    
+    >
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/newsbg1"
+    android:layout_margin="3dp"
+    
+    
+    >
+
+ </LinearLayout>
+ </LinearLayout>   
+    </LinearLayout>
+
+    <ListView
+        
+        android:id="@+id/lvnewspapernews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/black" >
+    </ListView>
+    
+</LinearLayout>

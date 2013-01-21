@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">MyApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_hello_android">Myapp</string>
+    <string name="edit_message">your total is 0</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_display_message">My message</string>
+    <string name="ref">add</string>
+    <string name="f">sub</string>
+    <string name="command">wtf!!!</string>
+
+</resources>

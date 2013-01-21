@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,DuplicateIds" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:text="Instructions for the filter"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="168dp"
+            android:layout_height="106dp"
+            android:entries="@array/filter1"
+            android:prompt="@string/filter1_prompt" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/baddsubs"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Add To my Subscriptions" />
+
+        <Button
+            android:id="@+id/bviewsubs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View my all Subscriptions" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bMyPaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to My Paper"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

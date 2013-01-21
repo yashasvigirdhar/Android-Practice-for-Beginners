@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:weightSum="100" android:layout_height="match_parent">
+
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="294dp" >
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView android:text="Email address(es):"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/etEmails">
+			</EditText>
+			<TextView android:text="Person's name" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/etName"></EditText>
+			<TextView android:text="message" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+
+			<EditText
+			    android:id="@+id/etOutro"
+			    android:layout_width="match_parent"
+			    android:layout_height="150dp" >
+</EditText>
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="133dp"
+	    android:orientation="vertical" >
+
+		<Button
+		    android:id="@+id/bSentEmail"
+		    android:layout_width="fill_parent"
+		    android:layout_height="80dp"
+		    android:layout_weight="30"
+		    android:text="Send Email" />
+
+	</LinearLayout>
+
+</LinearLayout>

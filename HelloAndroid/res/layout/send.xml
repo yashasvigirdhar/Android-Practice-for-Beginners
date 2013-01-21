@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="favourite category???" />
+
+    <RadioGroup
+        android:id="@+id/rgAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rceleb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celeberity !" />
+
+        <RadioButton
+            android:id="@+id/rhard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hardcore !!" />
+
+        <RadioButton
+            android:id="@+id/rgang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gangbang !!!" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>

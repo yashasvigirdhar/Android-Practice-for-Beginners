@@ -1,0 +1,148 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.electionkhabar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/launcher1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".PartyNews"
+            android:label="@string/title_activity_news" >
+            <intent-filter>
+                <action android:name="android.intent.action.PARTYNEWS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lis"
+            android:label="@string/title_activity_news" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewsPage"
+            android:label="News Page" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEWSPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="ElectionsKhabar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Party"
+            android:label="Party" >
+            <intent-filter>
+                <action android:name="android.intent.action.PARTY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Politicians"
+            android:label="Politicians" >
+            <intent-filter>
+                <action android:name="android.intent.action.POLITICIANS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Newspaper"
+            android:label="Newspapers" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEWSPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PoliticianNews"
+            android:label="PoliticianNews" >
+            <intent-filter>
+                <action android:name="android.intent.action.POLITICIANNEWS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Load"
+            android:label="LOADING" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOAD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".News"
+            android:label="News" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEWS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyPaperInstruct"
+            android:label="Welcome to your paper" >
+            <intent-filter>
+                <action android:name="android.intent.action.MYPAPERINSTRUCT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewPreference"
+            android:label="Your Subscriptions" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWPREFERENCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyPaper"
+            android:label="MY PAPER" >
+            <intent-filter>
+                <action android:name="android.intent.action.MYPAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name=".Neta"
+            android:label="Neta" >
+            <intent-filter>
+                <action android:name="android.intent.action.NETA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+
+        
+    </application>
+
+</manifest>
