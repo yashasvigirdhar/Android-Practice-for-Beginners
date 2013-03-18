@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4090/trunk/filemanager/FileManager/res/layout
+END
+filelist_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3976/trunk/filemanager/FileManager/res/layout/filelist_item.xml
+END
+filelist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4090/trunk/filemanager/FileManager/res/layout/filelist.xml
+END
+dialog_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3764/trunk/filemanager/FileManager/res/layout/dialog_details.xml
+END
+dialog_new_folder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2980/trunk/filemanager/FileManager/res/layout/dialog_new_folder.xml
+END
+dialog_warning.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3663/trunk/filemanager/FileManager/res/layout/dialog_warning.xml
+END

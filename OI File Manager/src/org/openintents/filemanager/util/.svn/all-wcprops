@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4092/trunk/filemanager/FileManager/src/org/openintents/filemanager/util
+END
+MimeTypeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/4053/trunk/filemanager/FileManager/src/org/openintents/filemanager/util/MimeTypeParser.java
+END
+ExtractManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3992/trunk/filemanager/FileManager/src/org/openintents/filemanager/util/ExtractManager.java
+END
+CompressManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/4090/trunk/filemanager/FileManager/src/org/openintents/filemanager/util/CompressManager.java
+END
+ImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/4076/trunk/filemanager/FileManager/src/org/openintents/filemanager/util/ImageUtils.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4092/trunk/filemanager/FileManager/src/org/openintents/filemanager/util/FileUtils.java
+END
+MimeTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4053/trunk/filemanager/FileManager/src/org/openintents/filemanager/util/MimeTypes.java
+END

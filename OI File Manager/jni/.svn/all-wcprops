@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4117/trunk/filemanager/FileManager/jni
+END
+access.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3946/trunk/filemanager/FileManager/jni/access.c
+END
+Application.mk
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4117/trunk/filemanager/FileManager/jni/Application.mk
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3946/trunk/filemanager/FileManager/jni/Android.mk
+END
