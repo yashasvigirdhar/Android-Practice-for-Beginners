@@ -16,11 +16,12 @@
         android:text="move here" />
 
     <TextView
-        android:id="@+id/test_output"
+        android:id="@+id/mTestOutput"
         android:layout_width="match_parent"
         android:layout_height="0dip"
         android:layout_weight="9.47"
-        android:textIsSelectable="true" />
+        android:textIsSelectable="true"
+        android:text="your dropbox folder contains\n" />
 
     
    <LinearLayout
@@ -41,13 +42,5 @@
             android:hint="name of the file to delete"
             android:ems="10" />
     </LinearLayout>
-
-      
-    <Button
-        android:id="@+id/bshowfiles"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.59"
-        android:text="show files in the dropbox" />
 
 </LinearLayout>

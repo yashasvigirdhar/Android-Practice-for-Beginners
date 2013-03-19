@@ -13,17 +13,17 @@ public final class R {
 		public static final int oi_distribution_buttonbar = 0x7f050001;
 	}
 	public static final class id {
-		public static final int container1 = 0x7f080032;
-		public static final int container2 = 0x7f08002d;
-		public static final int text = 0x7f08002a;
-		public static final int buttonbar = 0x7f080035;
-		public static final int text1 = 0x7f080031;
-		public static final int imageview = 0x7f080033;
-		public static final int button2 = 0x7f080030;
-		public static final int text2 = 0x7f080034;
-		public static final int background = 0x7f080036;
-		public static final int space = 0x7f08002f;
-		public static final int button1 = 0x7f08002e;
+		public static final int container1 = 0x7f080031;
+		public static final int container2 = 0x7f08002c;
+		public static final int text = 0x7f080029;
+		public static final int buttonbar = 0x7f080034;
+		public static final int text1 = 0x7f080030;
+		public static final int imageview = 0x7f080032;
+		public static final int button2 = 0x7f08002f;
+		public static final int text2 = 0x7f080033;
+		public static final int background = 0x7f080035;
+		public static final int space = 0x7f08002e;
+		public static final int button1 = 0x7f08002d;
 	}
 	public static final class string {
 		public static final int oi_distribution_update_app = 0x7f06001c;

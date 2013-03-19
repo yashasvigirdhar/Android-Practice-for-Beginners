@@ -194,5 +194,5 @@
     <string name="change_file_extension">Do you want to change the file extension?</string>
     <string name="title_local">local sdcard</string>
     <string name="title_dropbox">dropbox</string>
-    <string name="title_gdrive">gdive</string>
+    <string name="title_gdrive">gdrive</string>
 </resources>

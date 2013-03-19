@@ -826,10 +826,12 @@ public class FileManagerActivity extends DistributionLibraryListActivity
 		}
 	}
 
-	/*
-	 * @Override protected void onResume() { // TODO Auto-generated method stub
-	 * super.onResume(); }
-	 */
+	
+	 @Override protected void onResume() { // TODO Auto-generated method stub
+		 getActionBar().setSelectedNavigationItem(0);
+		 super.onResume(); 
+		 }
+	 
 
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {
