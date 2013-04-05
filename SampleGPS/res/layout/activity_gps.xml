@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <Button
+        android:id="@+id/bstartgps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start GPS" />
+     <Button
+        android:id="@+id/bstopgps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop GPS" />
+
+    <TextView
+        android:id="@+id/tvcoords"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.2"
+        android:text="Co-ordinates"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
