@@ -1,0 +1,72 @@
+body{
+	width:500px;
+	height:1000px;
+	}
+
+div.header{
+	float:left;
+	font-weight:bold;
+}
+
+div#details{
+	height:70px;
+	width:200px;
+	}
+	
+div.right{
+	float:left;
+	}
+	
+div.left{
+	float:left;
+	margin-left:50px;
+	}
+	
+div.value{
+	position:relative;
+	}
+	
+div#saleheader,#signtext{
+	text-align:center;
+	height:10px;
+	width:300px;
+	margin:35px;
+	}
+	
+div#carddetails{
+	height:40px;
+	width:250px;
+	}
+	
+div.cardleft{
+	float:left;
+	margin-left:50px;
+	}
+	
+div#carddetails2{
+	height:80px;
+	width:200px;
+	}
+	
+div.cardleft2{
+	float:left;
+	margin-left:50px;
+	}
+	
+div.cardright2{
+	float:left;
+	}
+
+div#signimage{
+	width:300px;
+	height:100px;
+	margin-left:50px;
+	}
+
+div#name,#footer{
+	text-align:center;
+	height:30px;
+	width:300px;
+	margin:35px;
+	margin-left:50px;
+}
