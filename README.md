@@ -1,7 +1,7 @@
 Android
 =======
 
-This repository contains my android projects.
+This repository contains my android projects and contributions to the open source android orgs.
 
 Functionalities covered:
 
