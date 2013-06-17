@@ -25,11 +25,13 @@ Functionalities covered:
 
 10.Android's preferences
 
-11.Different UI elements like Slider, Flipper, Tabs , Custom layouts for the elements
+11.Binding Services with Activities
 
-12.Action Bar (with Sherlock Action Bar)
+12.Different UI elements like Slider, Flipper, Tabs , Custom layouts for the elements
 
-13.List Adapters
+13.Action Bar (with Sherlock Action Bar)
+
+14.List Adapters
 
 
 
