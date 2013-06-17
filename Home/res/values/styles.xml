@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <drawable name="transperent_color">#00000000</drawable> 
+    <drawable name="black">#000000</drawable>   
+
+</resources>

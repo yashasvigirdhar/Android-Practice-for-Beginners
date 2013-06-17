@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/email.xml" />
+        <ignore path="res/layout/get.xml" />
+        <ignore path="res/layout/text.xml" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/thenode/helloandroid/DisplayMessageActivity.java" />
+    </issue>
+</lint>

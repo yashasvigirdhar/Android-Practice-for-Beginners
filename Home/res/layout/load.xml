@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/newsload"
+    android:id="@+id/lnews" >
+
+    <TextView
+        android:id="@+id/tvloading"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:text="Loading . "
+        android:textColor="#8b8989"
+        />
+    
+</LinearLayout>

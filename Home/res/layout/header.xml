@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:background="@drawable/black" >
+    
+    <LinearLayout android:background="@drawable/notebook"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="0.5dp"
+        android:layout_marginBottom="0.5dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_marginLeft="35dp"
+            
+            android:layout_height="match_parent"
+            android:src="@drawable/pin" />
+
+        <TextView
+            android:id="@+id/tvPnews"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="6dp"
+            android:text="TextView" />
+        
+        </LinearLayout>
+</RelativeLayout>

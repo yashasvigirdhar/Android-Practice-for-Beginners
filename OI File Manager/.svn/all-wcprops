@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/4245/trunk/filemanager/FileManager
+END
+template of build-private.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2994/trunk/filemanager/FileManager/template%20of%20build-private.properties
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4245/trunk/filemanager/FileManager/readme.txt
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2994/trunk/filemanager/FileManager/build.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4170/trunk/filemanager/FileManager/AndroidManifest.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3034/trunk/filemanager/FileManager/build.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3935/trunk/filemanager/FileManager/project.properties
+END
+template of local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2994/trunk/filemanager/FileManager/template%20of%20local.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2994/trunk/filemanager/FileManager/.project
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2994/trunk/filemanager/FileManager/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4092/trunk/filemanager/FileManager/.classpath
+END

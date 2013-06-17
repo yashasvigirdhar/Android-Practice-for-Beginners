@@ -1,0 +1,32 @@
+Explanation of two apps:
+
+ELECTIONSKHABAR:
+
+This is the one I am currently working on.
+
+It aims at easing the information access by the people, through various options.The app gathers all the relevant news at a single place and presents to the user through various options and filters.
+Here are some salient features of the app:
+-lists all news of the country at a single place
+-provides various useful filters that enable user to quickly access information a particular party or candidate.
+-user can custom build his own newspaper that displays information relevant only to the user, so that they remain updated about their favourite topics.
+-a discussion forum for users, where user are provided with an option to comment on the news articles and discuss with other peers.
+-users have a choice to read news from any of their favourite newspaper/combining more than one newspaper, thus providing them with a rich source of news all at a place.
+
+Right now, the "hot discussions" and the "top news" part is left.
+
+Skills learned: Database storage and retrieval
+                website crawling using jsoup library
+		    Important UI concepts: Most important being the List Adapters
+		    Internet browsing
+
+MyApp:
+
+This is just a sample app that I created to basically practice the android programming
+
+It offers three options:
+1.Wikipedia: It asks the user for a query/word and opens it wikipedia page, if it exists.It provides the user a browser like interface, providing options to move back/forward/refresh.
+2.ChangeWallpaper: Take a pic and set it as the wallpaper
+3.Email: User can send an email to anyone in their contact list, just entering their name and message.
+4.Push notifications: NOtification whenever the wallpaper is changed through that app
+
+

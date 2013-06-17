@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4242/trunk/filemanager/FileManager/res/values
+END
+arrays.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2980/trunk/filemanager/FileManager/res/values/arrays.xml
+END
+strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4242/trunk/filemanager/FileManager/res/values/strings.xml
+END
+strings_not_for_translation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4097/trunk/filemanager/FileManager/res/values/strings_not_for_translation.xml
+END

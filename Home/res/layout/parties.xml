@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+
+    
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:background="#80ffffff"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+         >
+    </ImageView>
+ 
+    <TextView
+        android:id="@+id/tvlabel"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        android:typeface="serif"
+        android:text=" "
+        android:textSize="20dp" >
+    </TextView>
+
+    
+</RelativeLayout>

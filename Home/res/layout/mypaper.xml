@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutparty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,SpUsage,InefficientWeight,ContentDescription" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvParty"
+            android:layout_width="196dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="11dp"
+            android:gravity="center"
+            android:text="Bhartiya Janta Party"
+            android:textColor="#000"
+            android:textSize="29dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgParty"
+            android:layout_width="105dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:padding="2dp"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   " >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="All Latest News . . "
+        android:typeface="serif" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/listNews"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_weight="1.32"
+        android:padding="2dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/bEditSubs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit My Subscriptions" />
+
+</LinearLayout>

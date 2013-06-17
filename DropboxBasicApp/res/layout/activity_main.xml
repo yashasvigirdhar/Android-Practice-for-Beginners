@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    
+    tools:ignore="HardcodedText" >
+
+    <Button
+        android:id="@+id/link_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Authenticate the app" />
+
+    <TextView
+        android:id="@+id/test_output"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="9.47"
+        android:textIsSelectable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/baddfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add file to dropbox" />
+
+        <EditText
+            android:id="@+id/etaddfile"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="name of the file to add"
+            android:ems="10" />
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bdelfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete file to dropbox" />
+
+        <EditText
+            android:id="@+id/etdelfile"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="name of the file to delete"
+            android:ems="10" />
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bcopyfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="copy file from sdcard" />
+
+        <EditText
+            android:id="@+id/etcopyfile"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="path of the file to be added"
+            android:ems="10" />
+    </LinearLayout>
+   
+    <Button
+        android:id="@+id/bshowfiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.59"
+        android:text="show files in the dropbox" />
+
+</LinearLayout>
