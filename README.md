@@ -13,6 +13,8 @@ Functionalities covered:
 
 4.Dropbox API's
 
+5.Building a Dynamic UI  using Fragments
+
 5.Bluetooth Pairing
 
 6.Posting HTTP Requests to the server
