@@ -5,35 +5,39 @@ This repository contains my android projects and contributions to the open sourc
 
 Functionalities covered:
 
-1.GPS Services
+->GPS Services
 
-2.Web Site Crawling - using Jsoup Library
+->Web Site Crawling - using Jsoup Library
 
-3.Android's Database Management- Sqlite
+->Android's Database Management- Sqlite
 
-4.Dropbox API's
+->Dropbox API's
 
-5.Building a Dynamic UI  using Fragments
+->Communicating with a Remote Service (using Messenger)
 
-5.Bluetooth Pairing
+->Sending Custom Data Type from Service to Activity using Parcelable class
 
-6.Posting HTTP Requests to the server
+->Building a Dynamic UI using Fragments
 
-7.Downloading server's data
+->Bluetooth Pairing
 
-8.Push Notifications
+->Posting HTTP Requests to the server
 
-9.Basic Web Services (Web Browser , Email)
+->Downloading server's data
 
-10.Android's preferences
+->Push Notifications
 
-11.Binding Services with Activities
+->Basic Web Services (Web Browser , Email)
 
-12.Different UI elements like Slider, Flipper, Tabs , Custom layouts for the elements
+->Android's preferences
 
-13.Action Bar (with Sherlock Action Bar)
+->Binding Services with Activities
 
-14.List Adapters
+->Different UI elements like Slider, Flipper, Tabs , Custom layouts for the elements
+
+->Action Bar (with Sherlock Action Bar)
+
+->Custom List Views/Adapters
 
 
 
