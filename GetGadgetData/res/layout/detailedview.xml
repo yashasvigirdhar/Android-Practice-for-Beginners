@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="TextView"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/ivmobile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvOSlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  OS - "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvsizelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Size - "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvwtlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Weight - "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvwt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvprocessorlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Processor - "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvprocessor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvconnectivitylabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Connectivity - "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvconnectivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvcameralabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Camera - "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvcamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvstoragelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  SD storage - "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvstorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>

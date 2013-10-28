@@ -1,0 +1,39 @@
+Aim : To Send a Custom Data Type from a Remote Service to our Activity
+
+Functionalities covered:
+1.Communicating with a Remote Service (using Messenger)
+2.Sending Custom Data Type from Service to Activity using Parcelable class
+
+Workflow :
+
+Components : 
+
+A custom data class - GadgetData, that extends Parcelable class and contains some Specifications - Size, Android OS Version, Connectivity, 
+Processor, Camera Specifications, SD Card storage etc, for some android models.
+
+A Remote service  - AndroidGadgetDataService, that populates the array of the data class and sends one of the items to the activity using the messenger.
+
+A ListActivity - AndroidGadgetSpecActivity, that contains a listview of all the model names.
+The user taps on a particular model and its index is sent to the service and the service returns all its specs.
+
+An activity - DetailedView, that displays all the specs returned by the service.
+
+
+Communication between the service and listactivity takes place through the messengers of both.
+First, we bind the activity to the service and store the messenger of the service's handler in the activity.
+Similarly, we store the messenger of the activty's handler in the service.
+
+Then, communication takes place between the two through their messengers.
+
+How To Use : 
+
+Tap on any model name and you will get all its specs.
+
+ToDo's:
+
+->Dynamically add a new model with all its specs.
+
+
+Feel free to use the app and report if you find any bug.
+
+Cheers ! 
