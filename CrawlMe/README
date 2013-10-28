@@ -1,0 +1,28 @@
+Aim : To extract all the html links and image urls from a webpage specified by the user
+
+Library used for crawling : Jsoup --> http://jsoup.org/
+
+Functionalities covered:
+1.Communicating with a Remote Service (using Messenger)
+2.Crawling http pages
+3.Custom Listviews
+
+Workflow :
+
+A remote service, that crawls the web page using the jsoup library and sends back the results to the activity.
+All the crawling work is done on a separate thread, not the main thread.
+
+Communication between service and activity takes place through the messengers of both.
+First, we bind the activity to the service and store the messenger of the service's handler in the activity.
+Similarly, we store the messenger of the activty's handler in the service.
+
+Then, communication takes place between the two through their messengers.
+
+How To Use : 
+
+App starts with an activity.The default url provided to the app is http://thehindu.com/ .
+Wait for 15-20 seconds for the results to appear for this page. After the results appear, enter your url in the edittext provided and press the 'Go' button.Wait for 15-20 seconds for the results.
+
+Feel free to use the app and report if you find any bug.
+
+Cheers ! 
