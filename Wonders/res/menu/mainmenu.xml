@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add"
+        android:title="Add"
+        android:visible="true"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/action_edit"
+        android:title="Edit"
+        android:showAsAction="always"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete"
+        android:showAsAction="always"
+        android:visible="true">
+    </item>
+
+</menu>

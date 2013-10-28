@@ -1,0 +1,25 @@
+The application is available for both smartphones and tablets.
+
+It lists 7 wonders of the World in a ListView. On clicking a particular wonder, additional information gets displayed about that wonder.
+
+In the Portrait Mode, the screen shows the list of Wonders. Click a particular activity starts a new Activity which displays the image and descroption of that wonder.
+
+In Landscape mode, the left Pane shows the list of wonders and the right pane shows on top an image of the selected wonder and bottom part shows the  description/details of the wonder. 
+
+The user also has the option to add, edit and delete a wonder from the ListView. All the data is stored in SQLite database.
+
+Functionalities implemented-
+1. Fragments and FrameLayout
+2. ListView and Dynamic List Adapters
+3. Action Bar
+4. Android's Database Management- Sqlite
+5. Custom Dialogs
+
+How To Use : 
+
+Tap on any wonder name, its image and description will be displayed.
+
+
+Feel free to use the app and report if you find any bug.
+
+Cheers ! 
