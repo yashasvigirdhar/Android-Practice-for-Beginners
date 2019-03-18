@@ -1,3 +1,8 @@
+#### Update
+
+This repository is deprecated now. It was made in Pre-Lollipop days. While some of the basic concepts can still be learned from this repository, a lot of things have changed now. So you can use this to learn about something specific, but not for 
+keeping upto-date with android dev.
+
 Android
 =======
 
